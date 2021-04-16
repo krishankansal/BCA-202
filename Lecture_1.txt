@@ -1,0 +1,62 @@
+Date : April 13, 2021
+
+BCA-202 C Programming
+
+What do you by a Program
+-------------------------
+Which takes some data and returns the data or manupulate
+the data or information.
+
+Power of a language
+-------------------
+How the laguage handles user data in very large
+amount.
+
+Basic operation which are to be done on data
+1. insertion
+2. deletion
+3. search
+4. update
+
+Data Structure
+It is scheme to organize or save data in such a way
+so the all the four operation can be perfomed in
+minimum time.
+
+int a =10;
+
+Syntax for declaring an array
+-----------------------------
+int a[] -> a is an array of type integer
+float f[] -> 
+int a[] = {10,20,30,40,50}
+
+What are arrays.
+Arrays are data structures which contains homogeneous
+data or similar data in a contiguos memory location.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
