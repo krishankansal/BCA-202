@@ -1,0 +1,55 @@
+Date : April 16, 2021
+
+BCA-202 C Programming
+
+Arrays are static.
+Because we have to claim the memory of array in advance.
+
+Program to find the largest element in an Arrays
+------------------------------------------------
+{6, 8, 2, 34, 23}
+
+#include<stdio.h>
+
+void main(){
+    int x[10] = {34,-1, 45, 67, 23, 45, 12, 23, 23, 60};
+    int largest = x[0]; // Assume that first element is largest
+    for(int i=1; i<=9; i++){
+        if(x[i] > largest){
+            largest = x[i];
+        }
+    }
+    printf("The Greatest element of array = %d",largest);
+
+}
+
+Program to find the smallest element in an Arrays
+
+Write a program to search whether a given element exist in array or not
+----------------------------------------------------------------------
+
+#include<stdio.h>
+
+void main(){
+    int x[10] = {34,-1, 45, 67, 23, 45, 12, 23, 23, 60};
+    int element;
+    printf("Enter the element for searching : ");
+    scanf("%d",&element);
+    int flag = 0;
+    for(int i=0;i<=9;i++){
+        if(element == x[i]){
+            flag = 1;
+        }
+    }
+    if(flag == 1){
+        printf("Element %d exist in array",element);
+    }else{
+        printf("Element %d do not exist in array",element);
+    }
+
+
+
+
+
+
+
